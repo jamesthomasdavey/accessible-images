@@ -748,7 +748,7 @@ var PaginatedThumbnails = function (_Component) {
 				icon: 'arrowLeft',
 				onClick: this.gotoPrev,
 				style: arrowStyles,
-				title: 'Previous (Left arrow key)',
+				title: 'Previous Image',
 				type: 'button'
 			});
 		}
@@ -768,7 +768,7 @@ var PaginatedThumbnails = function (_Component) {
 				icon: 'arrowRight',
 				onClick: this.gotoNext,
 				style: arrowStyles,
-				title: 'Next (Right arrow key)',
+				title: 'Next Image',
 				type: 'button'
 			});
 		}
@@ -1423,11 +1423,11 @@ Lightbox.defaultProps = {
 	currentImage: 0,
 	enableKeyboardInput: true,
 	imageCountSeparator: ' of ',
-	leftArrowTitle: 'Previous (Left arrow key)',
+	leftArrowTitle: 'Previous Image',
 	onClickShowNextImage: true,
 	preloadNextImage: true,
 	preventScroll: true,
-	rightArrowTitle: 'Next (Right arrow key)',
+	rightArrowTitle: 'Next Image',
 	showCloseButton: true,
 	showImageCount: true,
 	spinner: Spinner,

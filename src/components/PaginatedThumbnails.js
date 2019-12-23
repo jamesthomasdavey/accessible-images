@@ -104,7 +104,7 @@ export default class PaginatedThumbnails extends Component {
 				icon="arrowLeft"
 				onClick={this.gotoPrev}
 				style={arrowStyles}
-				title="Previous (Left arrow key)"
+				title="Previous Image"
 				type="button"
 			/>
 		);
@@ -121,7 +121,7 @@ export default class PaginatedThumbnails extends Component {
 				icon="arrowRight"
 				onClick={this.gotoNext}
 				style={arrowStyles}
-				title="Next (Right arrow key)"
+				title="Next Image"
 				type="button"
 			/>
 		);

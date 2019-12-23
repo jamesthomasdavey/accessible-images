@@ -93,7 +93,7 @@ customControls | array | undefined | An array of elements to display as custom c
 images  | array | undefined | Required. Array of image objects See image options table below
 imageCountSeparator  | String  | ' of ' | Customize separator in the image count
 isOpen  | bool  | false | Whether or not the lightbox is displayed
-leftArrowTitle | string | ' Previous (Left arrow key) ' | Customize of left arrow title
+leftArrowTitle | string | ' Previous Image ' | Customize of left arrow title
 onClickPrev | func | undefined | Fired on request of the previous image
 onClickNext | func | undefined | Fired on request of the next image
 onClose | func | undefined | Required. Handle closing of the lightbox
